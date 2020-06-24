@@ -7,12 +7,12 @@ public class Arr1{
         int j=0,k=0; // we are initializing the two index for our odd and even array
         for(int i=0;i<a.length;i++){
             if(a[i]%2==0){
-                    // we dosen't need this loop to be ittaated as there is no values we can simply use the for-i loop as a counter
+                    // we dosen't need any loop to be ittaated we can simply use the for-i loop as a counter
                     even[j]=a[i];
                     j++;// to change the index position
                 
             }else{
-                    // we dosen't need this loop to be ittaated as there is no values we can simply use the for-i loop as a counter
+                    // we dosen't need any loop to be ittaated we can simply use the for-i loop as a counter
                     odd[k]=a[i];
                     k++; // to change the index position
             
