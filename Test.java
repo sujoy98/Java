@@ -1,12 +1,15 @@
-public class Test{
-        static int sum(int a, int b){
-        int sum;
-        sum=a+b;
-        System.out.println("Sum is : "+sum);
-        return 0;
-    }
-    public static void main(String[]args){
-        Test obj=new Test();// creating object of class Test
-        obj.sum(5,5);
-    }
+import java.util.Scanner;
+public class Test {
+public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("================================");
+        for(int i=0;i<3;i++)
+        {
+            String s1=sc.next();
+            int x=sc.nextInt();
+            System.out.printf("%-15s%03d\n", s1, x);
+        }
+        System.out.println("================================");
+
+}
 }
