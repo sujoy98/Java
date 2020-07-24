@@ -68,7 +68,7 @@ public class MyLink {
 		}
 	}
 	/*
-	 * after for loop temp has the address of 3, which is in the second node, now to
+	 * suppose pos is 3 there are total 5 nodes >> after for loop temp has the address of 3, which is in the second node, now to
 	 * find the address of 4th node we need another Node type variable temp1, temp1=temp.next>address of 3
 	 * temp1.next>address of 4.  
 	 */
@@ -85,7 +85,7 @@ public class MyLink {
 			for(int i=1;i<pos-1;i++) {
 				temp=temp.next;
 			}
-			temp1=temp.next; // temp1=temp.next.next > address od 4 directly
+			temp1=temp.next; //<< suppose pos is 3 there are total 5 nodes >> temp1=temp.next.next > address od 4 directly
 			temp.next=temp1.next;
 			size--;
 		}
