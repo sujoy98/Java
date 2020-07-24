@@ -85,6 +85,13 @@ public class MyLink {
 			for(int i=1;i<pos-1;i++) {
 				temp=temp.next;
 			}
+			/* for loop alternative
+				int i=1;
+				while(i<pos-1) {
+				temp=temp.next;
+				i++;
+			}
+			*/
 			temp1=temp.next; //<< suppose pos is 3 there are total 5 nodes >> temp1=temp.next.next > address od 4 directly
 			temp.next=temp1.next;
 			size--;
