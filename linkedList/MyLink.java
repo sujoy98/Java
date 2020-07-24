@@ -11,7 +11,6 @@ public class MyLink {
 		Node n=new Node(data);
 		if(isEmpty()) {
 			head=n;
-			return;
 		}else {
 			n.next=head;
 			head=n;
