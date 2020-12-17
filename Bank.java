@@ -14,6 +14,7 @@ class bank{
         years = sc.nextDouble();
         double maturityAmount = (principle*(Math.pow(1+(rate/100),years)));
         System.out.println("Maturity Amount after " +years+ " years is : "+maturityAmount);
+        sc.close();
     }
     public void reccuringDeposit(){
         System.out.println("-----RECCURING-DEPOSIT-----");
@@ -29,6 +30,7 @@ class bank{
         rate=sc.nextDouble();
         double maturityAmount = ((monthlyInstallmentPayment*months)+(monthlyInstallmentPayment*(months*((months+1)/100)))*(rate/100)*(1/12));
         System.out.println("Maturity Amount after " +months+ " months is : " +maturityAmount);
+        sc.close();
     }
 }
 public class Bank extends bank{
@@ -67,8 +69,9 @@ public class Bank extends bank{
 
             default :
                 System.out.println("WRONG CHOISE");
-        }
-    }while(ch!=3);
-}
+            }
+        }while(ch!=3);
+        sc.close();
+    }
 
 }

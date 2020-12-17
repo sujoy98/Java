@@ -63,6 +63,7 @@ class Arr3{
         }else{
             System.out.println("Found");
         }
+        sc.close();
     }
 }
 
