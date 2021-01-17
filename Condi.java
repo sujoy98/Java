@@ -18,5 +18,6 @@ public class Condi{
         Condi obj=new Condi();
         obj.Test(x,y,z);
         //obj.Test(4,5,6);
+        sc.close();
     }
 }

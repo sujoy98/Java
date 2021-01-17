@@ -15,5 +15,6 @@ public class Ex5{
          for(int k=0;k<tpN.length;k++){
              System.out.println(tpN[k]+" ");
          }
+         sc.close();
     }
 }

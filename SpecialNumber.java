@@ -6,6 +6,7 @@ class Num{
     Scanner sc=new Scanner(System.in);
     System.out.print("Enter a number : ");
     num=sc.nextInt();
+    sc.close();
     }
     void compute(){
         if(num>=10){

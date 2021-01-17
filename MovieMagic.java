@@ -16,6 +16,7 @@ class movieMagic{
         year=sc.nextInt();
         System.out.print("Enter Movie Rating : ");
         rating=sc.nextFloat();
+        sc.close();
     }
     public void display(){
         System.out.println("The Title of the Movie is "+title);

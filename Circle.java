@@ -19,5 +19,6 @@ public class Circle{
         Circle c=new Circle(radius);
         System.out.println("Area : "+c.area());
         System.out.print("Perimeter : "+c.perimeter());
+        sc.close();
     }
 }

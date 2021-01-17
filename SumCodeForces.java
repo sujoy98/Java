@@ -5,5 +5,6 @@ public class SumCodeForces{
         int a=sc.nextInt();
         while(a>0)
         System.out.println(sc.nextInt()+sc.nextInt());
+        sc.close();
     }
 }

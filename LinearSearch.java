@@ -21,5 +21,6 @@ public class LinearSearch{
         }else{
             System.out.println("Search Complete "+num+" not found.");
         }
+        sc.close();
     }
 }

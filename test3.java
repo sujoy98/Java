@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class test3{
     public static void main(String[]args){
         int a1[]={2,3,4,5,6,7};
