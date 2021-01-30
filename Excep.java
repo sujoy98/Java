@@ -7,9 +7,9 @@ public class Excep {
             try {
                 System.out.println(a/b);
             } catch(ArithmeticException e) {
-                // System.out.println(a+b);
                 // System.out.println("Divide by zero error");
                 // b=5;
+                // System.out.println(a/b);
                 System.out.println(e);
             } 
         } catch(ArrayIndexOutOfBoundsException e) {
